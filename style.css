@@ -1,0 +1,83 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+#main{
+
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: start;
+    width: 60%;
+    height: 70vh;
+    
+   margin-left: 150px;
+    justify-items: center;
+}
+#dateon{
+    margin-left:10px;
+    margin-top:0px;
+    text-align: center;
+   
+    color: white;
+}
+.imagestyle{
+    height: 250px;
+    width:100%;
+}
+
+#image{
+    margin-left:20px;
+    height: 2500px;
+    width: 80%;
+}
+
+#heading{
+    margin-left:20px;
+    text-align: left;
+    color:white;
+    margin-bottom: 10px;
+    
+}
+
+#info{
+    margin-left:20px;
+    margin-top:0px;
+    color:white;
+    font-size:small;
+    text-align: start;
+    width:80%;
+}
+
+#search-form {
+    
+    margin-top: 20px;
+}
+
+#search-input {
+    margin: 0 10px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+
+#search-history {
+    list-style: none;
+    padding: 0;
+}
+
+#search-history li {
+    cursor: pointer;
+    margin: 5px 0;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
